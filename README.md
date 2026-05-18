@@ -38,7 +38,7 @@ I built this project during a cybersecurity externship on [Extern](https://www.e
 
 > A full walkthrough of the pipeline running live, followed by the attack simulator triggering and being caught in real time.
 
-
+https://github.com/user-attachments/assets/32782a75-487e-49d1-9551-112f1c780516
 
 ---
 
@@ -210,6 +210,7 @@ The operator dashboard (`dashboard.html` + `dashboard_server.py`) bridges the MQ
 ## Repository Structure
 
 ```
+├── Demo.mp4                      # A walkthrough of the pipeline running live
 ├── requirements.txt              # Python dependencies (pip install -r requirements.txt)
 ├── mosquitto_mtls.conf           # Broker config: mTLS enforced, anon blocked
 ├── generate_certs.py             # Generates the full PKI (CA, server, devices, test certs)
@@ -220,8 +221,8 @@ The operator dashboard (`dashboard.html` + `dashboard_server.py`) bridges the MQ
 ├── dashboard.html                # Real-time threat monitoring UI
 ├── attack_simulator.py           # 3-phase attack demo (eavesdrop / inject / replay)
 └── docs/
-    ├── dashboard_normal.png  # Dashboard under normal pipeline operation
-    └── dashboard_attack.png  # Dashboard during active attack simulation
+    ├── dashboard_normal.png      # Dashboard under normal pipeline operation
+    └── dashboard_attack.png      # Dashboard during active attack simulation
 ```
 
 ---
